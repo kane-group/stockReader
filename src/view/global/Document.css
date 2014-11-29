@@ -1,0 +1,13 @@
+.document.document__outer {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.document.document__inner {
+    padding-bottom: 100px
+}
+
+.document.document__inner--fullscreen {
+    padding-bottom: 0px
+}

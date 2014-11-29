@@ -1,0 +1,305 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sty",
+				"stylesheet"
+			],
+			[
+				"li",
+				"link	link - alternate"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"scri",
+				"script	Tag"
+			],
+			[
+				"b",
+				"br	<br>"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ht",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"for",
+				"format"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn s",
+				"Set Syntax: SQL"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"sy",
+				"Set Syntax: HTML5"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"scala",
+				"Set Syntax: Scala"
+			],
+			[
+				"sca",
+				"Set Syntax: Scala"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/futeshi/Documents/workspace2/first-dropwizard/database.yml",
+		"/Users/futeshi/Documents/stockRaeder/src/index.html",
+		"/Users/futeshi/Documents/workspace2/first-dropwizard/src/main/java/com/example/jdbi/database.yml",
+		"/Users/futeshi/Documents/workspace2/first-dropwizard/hello-world.yml",
+		"/Users/futeshi/Documents/workspace2/dir/first-dropwizard/hello-world.yml",
+		"/Users/futeshi/Downloads/IndexedDB.html",
+		"/Users/futeshi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/futeshi/.zshrc",
+		"/Users/futeshi/Documents/Effective Javaの話",
+		"/Users/futeshi/Documents/token.txt",
+		"/Users/futeshi/Library/Application Support/Sublime Text 3/Packages/User/Swift.sublime-build",
+		"/Users/futeshi/Desktop/test.html",
+		"/Users/futeshi/ws/webdb80/hello/app.js",
+		"/Applications/eclipse/Eclipse.app/Contents/MacOS/eclipse.ini",
+		"/Applications/eclipse/eclipse",
+		"/Users/futeshi/Desktop/style.css",
+		"/Users/futeshi/Desktop/2014:5:18		JJUG",
+		"/Users/futeshi/Documents/scala/Person.scala",
+		"/Users/futeshi/Documents/scala/HelloWorld.scala",
+		"/Users/futeshi/Documents/scala/untitled.scala",
+		"/Users/futeshi/Library/Application Support/Sublime Text 3/Packages/User/test.java"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 91.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\{",
+			"¥{",
+			"{",
+			"^ ",
+			"^ +\\d",
+			"^",
+			":",
+			"\\n",
+			":",
+			"project",
+			"#",
+			"id",
+			"^",
+			"rb",
+			"aaa",
+			"error",
+			"-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\\t",
+			"\\n",
+			"",
+			"\\n",
+			"¥n",
+			"dropwizard",
+			"",
+			"	",
+			"¥t"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
