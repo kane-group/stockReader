@@ -1,0 +1,21 @@
+{
+  "name": "stockReader",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Caffice/stockReader",
+  "authors": [
+    "tsk takezawa <tsk.take815@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "*",
+    "bootstrap": "*",
+    "marked": "*"
+  }
+}
