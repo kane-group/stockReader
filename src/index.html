@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Sandbox</title>
-    <link rel="stylesheet" href="view/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="view/dist/css/bootstrap-theme.min.css">
+    <title>stockReader</title>
+    <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="view/global/Global.css">
     <link rel="stylesheet" href="view/global/Document.css">
     <link rel="stylesheet" href="view/top/Item.css">
-    <script src="view/dist/js/jquery-2.1.1.min.js"></script>
-    <script src="view/dist/js/bootstrap.js"></script>
 </head>
 <body>
 
@@ -31,17 +29,17 @@
         </nav>
     </header>
 
-<div id="div-modal" class="modal fade"> 
+    <div id="div-modal" class="modal fade">
 
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-        QiitaのUser ID : <input type="text" name="userId" />
-        <button id="submitUserId" type="button" class="btn btn-primary">保存</button>
-      </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    QiitaのUser ID : <input type="text" name="userId" />
+                    <button id="submitUserId" type="button" class="btn btn-primary">保存</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  </div>
 
     <div class="container">
         <div id="items">
@@ -62,6 +60,8 @@
 </div>
 
 </body>
-<script src="view/dist/js/StockApi.js"></script>
-<script src="view/dist/js/marked.js"></script>
+<script src="../lib/jquery/dist/jquery.min.js"></script>
+<script src="../lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../lib/marked/lib/marked.js"></script>
+<script src="view/top/js/StockApi.js"></script>
 </html>
