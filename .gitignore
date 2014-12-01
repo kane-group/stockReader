@@ -17,3 +17,4 @@ src/view/dist
 
 .DS_Store
 lib
+node_modules
