@@ -11,8 +11,20 @@ $ bower install
 ```
 
 ## Usage
-run a webserver (with LiveReload)
+run a webserver(with LiveReload)
 
 ```
 $ gulp
+```
+
+build only
+
+```
+$ gulp build
+```
+
+release build
+
+```
+$ gulp release-build
 ```
