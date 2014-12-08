@@ -16,8 +16,14 @@
     "url": "https://github.com/Caffice/stockReader/issues"
   },
   "homepage": "https://github.com/Caffice/stockReader",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^*",
-    "gulp-connect": "*"
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-cssmin": "*",
+    "gulp-htmlmin": "*",
+    "gulp-jsmin": "*",
+    "gulp-plumber": "*",
+    "del": "*"
   }
 }
