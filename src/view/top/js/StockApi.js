@@ -38,7 +38,7 @@ function fetchStock(userId, count) {
 				var item = data[rand];
 				$(items).append("<li>" + item.title + "</li>");
 				if(i === 0) {
-					$(
+					$(items).find('li').attr('class', 'active');
 					$(body).html(marked(item.body));
 				}
 				storage.setItem('body-' + i, marked(item.body));
@@ -46,7 +46,6 @@ function fetchStock(userId, count) {
 		}
 	});
 	$(document).on('click', lists, function() {
-		
 		lists.removeClass('active');
 		$(this).attr('class', 'active');
 		$(body).html(storage.getItem('body-' + $(lists).index(this)));
