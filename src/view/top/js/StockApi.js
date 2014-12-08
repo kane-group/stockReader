@@ -1,6 +1,7 @@
 var storage = sessionStorage;
 
 var items = $("#items ul");
+var lists = $(items).children('li');
 var body = $("#body");
 
 (function($) {
@@ -37,17 +38,43 @@ function fetchStock(userId, count) {
 				var item = data[rand];
 				$(items).append("<li>" + item.title + "</li>");
 				if(i === 0) {
-					$(items).find('li').attr('class', 'active');
+					$(
 					$(body).html(marked(item.body));
 				}
 				storage.setItem('body-' + i, marked(item.body));
 			}
 		}
 	});
-	$(document).on('click', '#items ul li', function() {
-		$(items).children('li').removeClass('active');
+	$(document).on('click', lists, function() {
+		
+		lists.removeClass('active');
 		$(this).attr('class', 'active');
-		$(body).html(storage.getItem('body-' + $("#items ul li").index(this)));
+		$(body).html(storage.getItem('body-' + $(lists).index(this)));
 		window.scroll(0,0);
+	});
+
+	$(window).keydown(function(e) {
+		//key codes
+		var j = 74;
+		var k = 75;
+
+		var active = $(items).find('li.active');
+		if(e.keyCode == j) {
+			var next = $(active).removeClass('active').index() + 1;
+			if(next == lists.length) {
+				next = 0;
+			}
+			$(lists).eq(next).addClass('active');
+			$(body).html(storage.getItem('body-' + String(next)));
+			window.scroll(0,0);
+		} else if(e.keyCode == k) {
+			var prev = $(active).removeClass('active').index() - 1;
+			if(prev < 0) {
+				prev = lists.length -1;
+			}
+			$(lists).eq(prev).addClass('active');
+			$(body).html(storage.getItem('body-' + String(prev)));
+			window.scroll(0,0);
+		}
 	});
 }
